@@ -1,0 +1,7 @@
+name: email-agent
+type: custom
+description: "LangGraph Email Assistant App"
+
+source_code_path: .
+entry_point: main:app   # <-- module:function (FastAPI app = main.py, app = FastAPI())
+runtime: "12.2"         # keep lightweight (default is fine if omitted)
